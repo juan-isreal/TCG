@@ -1,0 +1,39 @@
+.center {
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+html{
+    font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", "Comic Neue", cursive, sans-serif;
+    /* cursor: url("/assets/click-icon.svg"), auto; */
+}
+
+*, 
+*::before, 
+*::after {
+  font-family: inherit;
+}
+
+hr {
+  width: 100%; /* Makes the line span the full width */
+  margin: 0;   /* Removes default vertical spacing */
+  border: none; /* Clears default styling */
+  border-top: 1px solid #000; /* Sets your custom thickness and color */
+}
+
+body {
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#clicker {
+    padding: 0px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
